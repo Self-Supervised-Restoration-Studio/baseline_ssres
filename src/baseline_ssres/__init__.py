@@ -51,7 +51,7 @@ def register():
     Returns None if ssres is not installed (standalone usage).
     """
     try:
-        from ssres.core.plugin_discovery import PluginContribution, PluginManifest
+        from core.plugin_discovery import PluginContribution, PluginManifest
     except ImportError:
         return None
 
